@@ -76,10 +76,10 @@ This will perform a more detailed scan of the target WordPress site, including e
 By combining the results of the Nmap and WPScan scans, you can gain a more comprehensive understanding of the security posture of the target WordPress site, including potential vulnerabilities and security issues. Note that these tools should be used responsibly and ethically, and with the permission of the site owner or administrator.
 
 ## WPScan WordPress Security Scanner options
-available options for WPScan:
+These options allow you to customize and fine-tune the behavior of WPScan to meet your specific needs and requirements, whether you're performing a basic scan or a more advanced security assessment.
 
-sql
-Copy code
+```sql
+
 Usage: wpscan [options]
         --url URL                          The WordPress URL/domain to scan.
         --disable-accept-header           Disable the Accept HTTP header.
@@ -140,6 +140,7 @@ Miscellaneous:
         --proxy PROXY                      Supply a proxy in the format host:port.
         --tor                              Use TOR anonymity network.
         --cache-ttl TIME                    Time to keep cached data in seconds. Default is 1800 (30 minutes).
-These options allow you to customize and fine-tune the behavior of WPScan to meet your specific needs and requirements, whether you're performing a basic scan or a more advanced security assessment.
+        ```
+
 
 
