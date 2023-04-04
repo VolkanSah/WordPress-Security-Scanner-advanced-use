@@ -13,7 +13,7 @@
 - [Use WPScan with other tools](#use-wpscan-with-other-tools)
 - [NMAP](#use-wpscan-with-nmap)
 - [Nikto](#use-wpscan-with-nikto)
-- [Intrusion-Detection-Systemen (IDS)](#use-wpscan-with-intrusion-detection-systemen)
+- [Intrusion-Detection-Systemen (IDS)](#use-with-intrusion-detection-systemen)
 - [OWASP ZAP](#use-wpscan-with-owasp-zap)
 - 
 #### Misk
@@ -213,7 +213,7 @@ Here are some additional Nikto options you might find helpful:
 Analyze the results from both WPScan and Nikto to identify potential security issues and vulnerabilities that need to be addressed. This can help you perform a more comprehensive security assessment of the target website.
 Remember that using these tools together can provide a more holistic view of a website's security posture and help identify vulnerabilities that may not be detected by one tool alone.
 
-### Use WpScan with Intrusion-Detection-Systemen (IDS)
+### Use WpScan with Intrusion-Detection-Systemen
 
 Intrusion Detection Systems (IDS) are essential tools for monitoring and analyzing network traffic to detect potential security threats. Combining WPScan with an IDS can help you identify and respond to attacks targeting your WordPress website more effectively. Here's how to use WPScan with an IDS:
 
