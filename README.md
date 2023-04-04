@@ -7,13 +7,20 @@ WPScan orginal repositories https://github.com/wpscanteam/wpscan
 - [Use options and flags](#use-wpscan-options-and-flags)
 - [WPScan options](#wpscan-options)
 
-## [Admin Panel](#use-wpscan-with-other-tools)
-- [Admin Panel](#the-admin-panel)
-- [User Panel](#the-user-panel)
-- [Usage](#usage)
+## [Use WPScan with other tools](#use-wpscan-with-other-tools)
+- [Nikto](#the-admin-panel)
+- [Intrusion-Detection-Systemen (IDS)](#the-user-panel)
+- [OWASP ZAP](#usage)
 - [Credits](#credits)
 - [Contributing](#contributing)
 - [License](#license)
+
+### Use WpScan with Nikto
+
+
+### Use WpScan with Intrusion-Detection-Systemen (IDS)
+Intrusion-Detection-Systemen (IDS)
+### Use WpScan with OWASP ZAP 
 
 WPScan is a free and open source WordPress security scanner that can be used to identify potential vulnerabilities and security issues in WordPress installations. Here's a brief overview of how to use WPScan and some advanced examples:
 
