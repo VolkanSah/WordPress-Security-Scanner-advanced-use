@@ -16,9 +16,8 @@ WPScan orginal repositories https://github.com/wpscanteam/wpscan
 - 
 #### Misk
 - [Warning](#warning)
-- [Credits](#credits)
 - [Contributing](#contributing)
-- [License](#license)
+- [Credits](#credits)
 
 ## About WpScan
 
