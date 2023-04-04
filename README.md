@@ -1,4 +1,4 @@
-# Advanced use of WPScan (WordPress Security Scanner)
+# Advanced use of WPScan (WordPress Security Scanner) - RedTeam
 WPScan orginal repositories https://github.com/wpscanteam/wpscan
 
 WPScan is a free and open source WordPress security scanner that can be used to identify potential vulnerabilities and security issues in WordPress installations. Here's a brief overview of how to use WPScan and some advanced examples:
@@ -120,7 +120,7 @@ WPScan can be used with other tools and plugins to improve its accuracy and effe
 
 Note that WPScan is a powerful tool that can be used to identify potential security issues in WordPress installations. However, it's important to use WPScan and other security tools responsibly and ethically, and to follow best practices for securing WordPress sites, such as keeping WordPress and its plugins and themes up-to-date, using strong passwords, and restricting access to sensitive files and directories.
 
-### Use WPScan with nmap
+### Use WPScan with NMAP
 example of how to use WPScan with Nmap to perform a more comprehensive security scan of a WordPress site:
 
 #### Install and configure Nmap and WPScan on your system
@@ -144,6 +144,16 @@ $ wpscan --url http://example.com --enumerate vp --plugins-detection mixed --plu
 This will perform a more detailed scan of the target WordPress site, including enumerating the installed plugins (--enumerate vp), using mixed detection modes for plugin detection and version detection (--plugins-detection mixed --plugins-version-detection mixed), and display a summary of the scan results.
 
 By combining the results of the Nmap and WPScan scans, you can gain a more comprehensive understanding of the security posture of the target WordPress site, including potential vulnerabilities and security issues. Note that these tools should be used responsibly and ethically, and with the permission of the site owner or administrator.
+
+### Use WpScan with Nikto
+
+
+### Use WpScan with Intrusion-Detection-Systemen (IDS)
+
+### Use WpScan with OWASP ZAP 
+
+
+
 
 
 
