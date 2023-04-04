@@ -8,7 +8,7 @@ WPScan orginal repositories https://github.com/wpscanteam/wpscan
 - [Use options and flags](#use-wpscan-options-and-flags)
 - [WPScan options](#wpscan-options)
 
-## [Use WPScan with other tools](#use-wpscan-with-other-tools)
+#### [Use WPScan with other tools](#use-wpscan-with-other-tools)
 - [Nikto](#the-admin-panel)
 - [Intrusion-Detection-Systemen (IDS)](#the-user-panel)
 - [OWASP ZAP](#usage)
