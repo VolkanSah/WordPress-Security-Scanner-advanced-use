@@ -1,9 +1,23 @@
 # Advanced use of WPScan (WordPress Security Scanner) - RedTeam
 WPScan orginal repositories https://github.com/wpscanteam/wpscan
 
+## Table of Contents (Basics)
+- [Install WPScan](#install-wpscan)
+- [Run a basic scan](#run-a-basic-scan)
+- [Use options and flags](#use-wpscan-options-and-flags)
+- [WPScan options](#wpscan-options)
+
+## [Admin Panel](#use-wpscan-with-other-tools)
+- [Admin Panel](#the-admin-panel)
+- [User Panel](#the-user-panel)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Contributing](#contributing)
+- [License](#license)
+
 WPScan is a free and open source WordPress security scanner that can be used to identify potential vulnerabilities and security issues in WordPress installations. Here's a brief overview of how to use WPScan and some advanced examples:
 
-## Install WPScan.
+## Install WPScan
 WPScan can be installed on Linux and macOS systems using the command line. You can download the latest version of WPScan from the official GitHub repository:
 
 ```shell
@@ -17,7 +31,7 @@ $ wpscan --url http://example.com
 ```
 This will scan the WordPress installation at http://example.com and display a summary of the scan results, including the version of WordPress installed, the plugins and themes in use, and any potential vulnerabilities or security issues.
 
-## Use WPScan options and flags.
+## c
 WPScan has many options and flags that can be used to customize the scan and improve its accuracy. Here are some examples:
 ```shell
 -e or --enumerate: 
@@ -47,7 +61,7 @@ $ wpscan --url http://example.com -p password-file.txt
 ```
 This will test the passwords listed in password-file.txt against the WordPress site's login page.
 
-## WPScan - WordPress Security Scanner options
+## WPScan options
 These options allow you to customize and fine-tune the behavior of WPScan to meet your specific needs and requirements, whether you're performing a basic scan or a more advanced security assessment.
 
 ```shell
@@ -115,7 +129,7 @@ Miscellaneous:
 ```
 
 
-## Use WPScan with other tools:
+## Use WPScan with other tools
 WPScan can be used with other tools and plugins to improve its accuracy and effectiveness. For example, you can use WPScan with the WPScan WordPress plugin to perform deeper scans and analysis of the target WordPress site. Additionally, you can use WPScan with other security tools such as Nmap and Nikto to perform more comprehensive security scans.
 
 Note that WPScan is a powerful tool that can be used to identify potential security issues in WordPress installations. However, it's important to use WPScan and other security tools responsibly and ethically, and to follow best practices for securing WordPress sites, such as keeping WordPress and its plugins and themes up-to-date, using strong passwords, and restricting access to sensitive files and directories.
