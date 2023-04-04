@@ -279,9 +279,7 @@ This repository and its contents are provided "as is" without any warranty of an
 # Credits
 Copyright Volkan Sah Kücükbudak
 
-
-
-<a href="https://github.com/sponsors/VolkanSah">**If you like my work, than become a sponsor**/a>
+[If you like my work, than become a sponsor](https://github.com/sponsors/VolkanSah)
 
 
 
