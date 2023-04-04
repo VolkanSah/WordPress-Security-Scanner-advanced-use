@@ -14,8 +14,7 @@
 - [NMAP](#use-wpscan-with-nmap)
 - [Nikto](#use-wpscan-with-nikto)
 - [Intrusion-Detection-Systemen (IDS)](#use-with-intrusion-detection-systemen)
-- [OWASP ZAP](#use-wpscan-with-owasp-zap)
-- 
+- [OWASP ZAP](#use-with-owasp-zap)
 #### Misk
 - [Warning](#warning)
 - [Contributing](#contributing)
