@@ -81,7 +81,7 @@ By combining the results of the Nmap and WPScan scans, you can gain a more compr
 ## WPScan WordPress Security Scanner options
 These options allow you to customize and fine-tune the behavior of WPScan to meet your specific needs and requirements, whether you're performing a basic scan or a more advanced security assessment.
 
-```sql
+```shell
 
 Usage: wpscan [options]
         --url URL                          The WordPress URL/domain to scan.
@@ -143,7 +143,7 @@ Miscellaneous:
         --proxy PROXY                      Supply a proxy in the format host:port.
         --tor                              Use TOR anonymity network.
         --cache-ttl TIME                    Time to keep cached data in seconds. Default is 1800 (30 minutes).
-        ```
+```
 
 
 
