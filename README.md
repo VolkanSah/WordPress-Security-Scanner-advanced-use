@@ -166,6 +166,22 @@ $ wpscan --url http://example.com --enumerate vp --plugins-detection mixed --plu
 This will perform a more detailed scan of the target WordPress site, including enumerating the installed plugins (--enumerate vp), using mixed detection modes for plugin detection and version detection (--plugins-detection mixed --plugins-version-detection mixed), and display a summary of the scan results.
 
 By combining the results of the Nmap and WPScan scans, you can gain a more comprehensive understanding of the security posture of the target WordPress site, including potential vulnerabilities and security issues. Note that these tools should be used responsibly and ethically, and with the permission of the site owner or administrator.
+#### Advanced Example:
+First, identify open ports and running services on the target web server using Nmap.
+```shell
+nmap -p- -sV target_website.com
+```
+This command performs a port scan (-p-) and a service scan (-sV) on target_website.com. This helps you identify open ports and running services that could potentially be vulnerable.
+
+Next, run WPScan to look for known vulnerabilities and misconfigurations in the WordPress system. Example:
+```shell
+wpscan --url target_website.com
+```
+You can also use the --enumerate option to get more detailed information about plugins, themes, and users.
+```shell
+wpscan --url target_website.com --enumerate p,t,u
+```
+Use the results from the Nmap and WPScan scans to conduct further investigations and tests targeting the identified vulnerabilities.
 
 ### Use WpScan with Nikto
 
