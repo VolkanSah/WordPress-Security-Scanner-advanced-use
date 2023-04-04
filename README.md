@@ -115,16 +115,15 @@ Miscellaneous:
 ```
 
 
-## Use WPScan with other tools.
+## Use WPScan with other tools:
 WPScan can be used with other tools and plugins to improve its accuracy and effectiveness. For example, you can use WPScan with the WPScan WordPress plugin to perform deeper scans and analysis of the target WordPress site. Additionally, you can use WPScan with other security tools such as Nmap and Nikto to perform more comprehensive security scans.
 
 Note that WPScan is a powerful tool that can be used to identify potential security issues in WordPress installations. However, it's important to use WPScan and other security tools responsibly and ethically, and to follow best practices for securing WordPress sites, such as keeping WordPress and its plugins and themes up-to-date, using strong passwords, and restricting access to sensitive files and directories.
 
 ### Use WPScan with nmap
+example of how to use WPScan with Nmap to perform a more comprehensive security scan of a WordPress site:
 
- example of how to use WPScan with Nmap to perform a more comprehensive security scan of a WordPress site:
-
-Install and configure Nmap and WPScan on your system.
+#### Install and configure Nmap and WPScan on your system
 You can download and install the latest version of Nmap from the official website. Similarly, you can download and install WPScan from the official GitHub repository.
 
 Perform an Nmap scan of the target WordPress site.
@@ -145,6 +144,8 @@ $ wpscan --url http://example.com --enumerate vp --plugins-detection mixed --plu
 This will perform a more detailed scan of the target WordPress site, including enumerating the installed plugins (--enumerate vp), using mixed detection modes for plugin detection and version detection (--plugins-detection mixed --plugins-version-detection mixed), and display a summary of the scan results.
 
 By combining the results of the Nmap and WPScan scans, you can gain a more comprehensive understanding of the security posture of the target WordPress site, including potential vulnerabilities and security issues. Note that these tools should be used responsibly and ethically, and with the permission of the site owner or administrator.
+
+
 
 
 # Credits
