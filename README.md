@@ -1,6 +1,6 @@
 # Advanced use of WPScan (WordPress Security Scanner) 
 ###### 4 RedTeams
-I appreciate your support and would be grateful if you could share this project with others and give me a "star" on GitHub or become a sponsor.
+**I appreciate your support and would be grateful if you could share this project with others and give me a "star" on GitHub**
 
 
 ## Table of Contents 
