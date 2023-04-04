@@ -180,7 +180,7 @@ By combining the results of the Nmap and WPScan scans, you can gain a more compr
 
 
 # Credits
-Volkan Sah
+Copyright Volkan Sah Kücükbudak
 
 
 
