@@ -144,6 +144,8 @@ Miscellaneous:
         --tor                              Use TOR anonymity network.
         --cache-ttl TIME                    Time to keep cached data in seconds. Default is 1800 (30 minutes).
 ```
+# Credits
+Volkan Sah
 
 
 
