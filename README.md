@@ -38,7 +38,7 @@ $ wpscan --url http://example.com
 ```
 This will scan the WordPress installation at http://example.com and display a summary of the scan results, including the version of WordPress installed, the plugins and themes in use, and any potential vulnerabilities or security issues.
 
-## c
+## Use options and flags
 WPScan has many options and flags that can be used to customize the scan and improve its accuracy. Here are some examples:
 ```shell
 -e or --enumerate: 
