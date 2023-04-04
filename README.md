@@ -8,7 +8,8 @@
 - [Use options and flags](#use-wpscan-options-and-flags)
 - [WPScan options](#wpscan-options)
 
-#### [Use WPScan with other tools](#use-wpscan-with-other-tools)
+#### (Advanced)
+- [Use WPScan with other tools](#use-wpscan-with-other-tools)
 - [NMAP](#use-wpscan-with-nmap)
 - [Nikto](#use-wpscan-with-nikto)
 - [Intrusion-Detection-Systemen (IDS)](#use-wpscan-with-intrusion-detection-systemen)
