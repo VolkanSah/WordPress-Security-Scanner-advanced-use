@@ -5,7 +5,7 @@
 #### (Basics)
 - [Install WPScan](#install-wpscan)
 - [Run a basic scan](#run-a-basic-scan)
-- [Use options and flags](#use-wpscan-options-and-flags)
+- [Use options and flags](#use-options-and-flags)
 - [WPScan options](#wpscan-options)
 
 #### (Advanced)
