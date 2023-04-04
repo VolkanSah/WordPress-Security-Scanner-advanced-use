@@ -1,5 +1,5 @@
 # Advanced use of WPScan (WordPress Security Scanner) - RedTeam
-WPScan orginal repositories https://github.com/wpscanteam/wpscan
+
 
 ## Table of Contents 
 #### (Basics)
@@ -21,7 +21,7 @@ WPScan orginal repositories https://github.com/wpscanteam/wpscan
 
 ## About WpScan
 
-WPScan is a free and open source WordPress security scanner that can be used to identify potential vulnerabilities and security issues in WordPress installations. Here's a brief overview of how to use WPScan and some advanced examples:
+WPScan is a free and open source WordPress security scanner that can be used to identify potential vulnerabilities and security issues in WordPress installations. Here's a brief overview of how to use WPScan and some advanced examples. WPScan orginal repositories https://github.com/wpscanteam/wpscan
 
 ## Install WPScan
 WPScan can be installed on Linux and macOS systems using the command line. You can download the latest version of WPScan from the official GitHub repository:
