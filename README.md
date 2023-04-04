@@ -7,7 +7,6 @@ WPScan is a free and open source WordPress security scanner that can be used to 
 WPScan can be installed on Linux and macOS systems using the command line. You can download the latest version of WPScan from the official GitHub repository:
 
 ```shell
-
 $ git clone https://github.com/wpscanteam/wpscan.git
 ```
 ### Run a basic scan.
@@ -37,48 +36,18 @@ This option can be used to force a scan of the target WordPress site, even if it
 
 ```shell
 $ wpscan --url http://example.com -f
+```
 This will force a new scan of the WordPress site, even if it has been scanned before.
 ```shell
 -p or --passwords:
 ```
 This option can be used to test a list of common passwords against the WordPress site's login page. For example:
-
 ```shell
 $ wpscan --url http://example.com -p password-file.txt
 ```
-
 This will test the passwords listed in password-file.txt against the WordPress site's login page.
 
-## Use WPScan with other tools.
-WPScan can be used with other tools and plugins to improve its accuracy and effectiveness. For example, you can use WPScan with the WPScan WordPress plugin to perform deeper scans and analysis of the target WordPress site. Additionally, you can use WPScan with other security tools such as Nmap and Nikto to perform more comprehensive security scans.
-
-Note that WPScan is a powerful tool that can be used to identify potential security issues in WordPress installations. However, it's important to use WPScan and other security tools responsibly and ethically, and to follow best practices for securing WordPress sites, such as keeping WordPress and its plugins and themes up-to-date, using strong passwords, and restricting access to sensitive files and directories.
-
- example of how to use WPScan with Nmap to perform a more comprehensive security scan of a WordPress site:
-
-Install and configure Nmap and WPScan on your system.
-You can download and install the latest version of Nmap from the official website. Similarly, you can download and install WPScan from the official GitHub repository.
-
-Perform an Nmap scan of the target WordPress site.
-To perform an Nmap scan of the target WordPress site, use the following command:
-
-```shell
-$ nmap -sV --script=http-wordpress-enum <target-ip>
- ```
-This will perform a service and version detection scan (-sV) of the target IP address, and run the http-wordpress-enum script to enumerate the installed WordPress plugins and themes.
-
-Use WPScan to perform a more detailed scan of the target WordPress site.
-To use WPScan to perform a more detailed scan of the target WordPress site, use the following command:
-
-```shell
-
-$ wpscan --url http://example.com --enumerate vp --plugins-detection mixed --plugins-version-detection mixed
-```
-This will perform a more detailed scan of the target WordPress site, including enumerating the installed plugins (--enumerate vp), using mixed detection modes for plugin detection and version detection (--plugins-detection mixed --plugins-version-detection mixed), and display a summary of the scan results.
-
-By combining the results of the Nmap and WPScan scans, you can gain a more comprehensive understanding of the security posture of the target WordPress site, including potential vulnerabilities and security issues. Note that these tools should be used responsibly and ethically, and with the permission of the site owner or administrator.
-
-## WPScan WordPress Security Scanner options
+## WPScan - WordPress Security Scanner options
 These options allow you to customize and fine-tune the behavior of WPScan to meet your specific needs and requirements, whether you're performing a basic scan or a more advanced security assessment.
 
 ```shell
@@ -144,6 +113,40 @@ Miscellaneous:
         --tor                              Use TOR anonymity network.
         --cache-ttl TIME                    Time to keep cached data in seconds. Default is 1800 (30 minutes).
 ```
+
+
+## Use WPScan with other tools.
+WPScan can be used with other tools and plugins to improve its accuracy and effectiveness. For example, you can use WPScan with the WPScan WordPress plugin to perform deeper scans and analysis of the target WordPress site. Additionally, you can use WPScan with other security tools such as Nmap and Nikto to perform more comprehensive security scans.
+
+Note that WPScan is a powerful tool that can be used to identify potential security issues in WordPress installations. However, it's important to use WPScan and other security tools responsibly and ethically, and to follow best practices for securing WordPress sites, such as keeping WordPress and its plugins and themes up-to-date, using strong passwords, and restricting access to sensitive files and directories.
+
+### Use WPScan with nmap
+
+ example of how to use WPScan with Nmap to perform a more comprehensive security scan of a WordPress site:
+
+Install and configure Nmap and WPScan on your system.
+You can download and install the latest version of Nmap from the official website. Similarly, you can download and install WPScan from the official GitHub repository.
+
+Perform an Nmap scan of the target WordPress site.
+To perform an Nmap scan of the target WordPress site, use the following command:
+
+```shell
+$ nmap -sV --script=http-wordpress-enum <target-ip>
+ ```
+This will perform a service and version detection scan (-sV) of the target IP address, and run the http-wordpress-enum script to enumerate the installed WordPress plugins and themes.
+
+Use WPScan to perform a more detailed scan of the target WordPress site.
+To use WPScan to perform a more detailed scan of the target WordPress site, use the following command:
+
+```shell
+
+$ wpscan --url http://example.com --enumerate vp --plugins-detection mixed --plugins-version-detection mixed
+```
+This will perform a more detailed scan of the target WordPress site, including enumerating the installed plugins (--enumerate vp), using mixed detection modes for plugin detection and version detection (--plugins-detection mixed --plugins-version-detection mixed), and display a summary of the scan results.
+
+By combining the results of the Nmap and WPScan scans, you can gain a more comprehensive understanding of the security posture of the target WordPress site, including potential vulnerabilities and security issues. Note that these tools should be used responsibly and ethically, and with the permission of the site owner or administrator.
+
+
 # Credits
 Volkan Sah
 
