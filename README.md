@@ -213,8 +213,29 @@ Here are some additional Nikto options you might find helpful:
 Analyze the results from both WPScan and Nikto to identify potential security issues and vulnerabilities that need to be addressed. This can help you perform a more comprehensive security assessment of the target website.
 Remember that using these tools together can provide a more holistic view of a website's security posture and help identify vulnerabilities that may not be detected by one tool alone.
 
-
 ### Use WpScan with Intrusion-Detection-Systemen (IDS)
+
+Intrusion Detection Systems (IDS) are essential tools for monitoring and analyzing network traffic to detect potential security threats. Combining WPScan with an IDS can help you identify and respond to attacks targeting your WordPress website more effectively. Here's how to use WPScan with an IDS:
+
+Set up an IDS like Snort or Suricata on your network or server to monitor traffic and detect suspicious activity. Configure the IDS according to your specific requirements and ensure that it's actively monitoring your network traffic.
+
+Run WPScan to scan your WordPress website for vulnerabilities and misconfigurations:
+
+```shell
+wpscan --url target_website.com
+```
+Use additional WPScan options like --enumerate to gather more detailed information about plugins, themes, and users:
+
+```shell
+wpscan --url target_website.com --enumerate p,t,u
+```
+Monitor the IDS logs and alerts while running WPScan. The IDS may detect unusual or malicious activity during the scanning process, such as repeated login attempts or vulnerability exploitation.
+
+Analyze the IDS logs in conjunction with the WPScan results to identify potential security issues, attacks, or intrusion attempts. This will help you determine whether your WordPress website is being targeted and assess the effectiveness of your security measures.
+
+Adjust your IDS rules and settings as needed to improve detection accuracy and reduce false positives. This may involve tweaking rules to better identify WordPress-specific threats or creating custom rules to detect attacks targeting known vulnerabilities identified by WPScan.
+
+By using WPScan in conjunction with an IDS, you can gain valuable insights into your website's security posture and take appropriate steps to protect it from potential threats. This approach can help you proactively defend your WordPress website and stay ahead of emerging security risks.
 
 ### Use WpScan with OWASP ZAP 
 
