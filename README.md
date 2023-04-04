@@ -184,6 +184,34 @@ wpscan --url target_website.com --enumerate p,t,u
 Use the results from the Nmap and WPScan scans to conduct further investigations and tests targeting the identified vulnerabilities.
 
 ### Use WpScan with Nikto
+Nikto is an open-source web server scanner that checks for potential vulnerabilities, insecure files, outdated server software, and other security issues. It can be a valuable tool for identifying misconfigurations and potential weaknesses in web server setups.
+
+#### Using WPScan and Nikto together
+
+Combining WPScan and Nikto can provide a more comprehensive assessment of a website's security. Follow these steps:
+
+Run WPScan to search for known vulnerabilities and misconfigurations in the WordPress system:
+```shell
+wpscan --url target_website.com
+```
+You can also use the --enumerate option to gather more detailed information about plugins, themes, and users. Example:
+
+```shell
+wpscan --url target_website.com --enumerate p,t,u
+```
+Next, use Nikto to perform a comprehensive web server scan to identify potential vulnerabilities and security issues:
+```shell
+nikto -h target_website.com
+```
+Here are some additional Nikto options you might find helpful:
+```shell
+-ssl: To force SSL connections.
+-p <port>: To specify a port number to scan.
+-output <filename>: To save the scan results to a file.
+```
+
+Analyze the results from both WPScan and Nikto to identify potential security issues and vulnerabilities that need to be addressed. This can help you perform a more comprehensive security assessment of the target website.
+Remember that using these tools together can provide a more holistic view of a website's security posture and help identify vulnerabilities that may not be detected by one tool alone.
 
 
 ### Use WpScan with Intrusion-Detection-Systemen (IDS)
