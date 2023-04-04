@@ -19,6 +19,7 @@
 #### Misk
 - [Warning](#warning)
 - [Contributing](#contributing)
+- [Contributing](#warranty)
 - [Credits](#credits)
 
 ## About WpScan
@@ -263,8 +264,17 @@ Remediate the identified issues by updating vulnerable plugins or themes, fixing
 
 By using WPScan and OWASP ZAP together, you can perform more thorough security testing and gain valuable insights into your WordPress website's security. This approach can help you proactively defend your website against potential threats and stay ahead of emerging security risks.
 
+## Warning
 
+Please use the information and tools provided in this repository responsibly and ethically. The purpose of sharing this knowledge is to help website owners and developers protect their WordPress installations and improve their overall security posture. Do not use the techniques or tools mentioned here to engage in any malicious activities, unauthorized access, or any other form of cybercrime.
 
+## Contributing
+
+Contributions to this project are welcomed and appreciated. If you have suggestions for improvements, additional tools, or techniques that can enhance the security testing process or documentation, please feel free to submit a pull request or open an issue in the repository. We encourage collaboration and the sharing of knowledge to make this resource as valuable and up-to-date as possible.
+
+## Warranty
+
+This repository and its contents are provided "as is" without any warranty of any kind, either expressed or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. The authors, maintainers, and contributors of this project do not assume any responsibility or liability for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use the information, tools, or techniques described in this repository. It is the user's responsibility to evaluate the accuracy, completeness, and usefulness of any information, tools, or techniques provided here.
 
 # Credits
 Copyright Volkan Sah Kücükbudak
