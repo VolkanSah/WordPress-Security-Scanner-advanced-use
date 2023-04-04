@@ -1,5 +1,5 @@
 # Advanced use of WPScan (WordPress Security Scanner) 
-### RedTeam
+### 4 RedTeams
 
 
 ## Table of Contents 
