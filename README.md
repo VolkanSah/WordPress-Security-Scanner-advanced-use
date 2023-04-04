@@ -1,7 +1,8 @@
 # Advanced use of WPScan (WordPress Security Scanner) - RedTeam
 WPScan orginal repositories https://github.com/wpscanteam/wpscan
 
-## Table of Contents (Basics)
+## Table of Contents 
+#### (Basics)
 - [Install WPScan](#install-wpscan)
 - [Run a basic scan](#run-a-basic-scan)
 - [Use options and flags](#use-wpscan-options-and-flags)
