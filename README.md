@@ -1,5 +1,5 @@
 # Advanced use of WPScan (WordPress Security Scanner) 
-###### #RedTeam Tips & Tricks
+###### RedTeam Tips & Tricks
 **I appreciate your support and would be grateful if you could share this project with others and give me a "star" on GitHub**
 
 
