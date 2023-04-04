@@ -242,9 +242,6 @@ By using WPScan in conjunction with an IDS, you can gain valuable insights into 
 
 
 
-
-
-
 # Credits
 Copyright Volkan Sah Kücükbudak
 
