@@ -274,10 +274,14 @@ Contributions to this project are welcomed and appreciated. If you have suggesti
 
 This repository and its contents are provided "as is" without any warranty of any kind, either expressed or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. The authors, maintainers, and contributors of this project do not assume any responsibility or liability for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use the information, tools, or techniques described in this repository. It is the user's responsibility to evaluate the accuracy, completeness, and usefulness of any information, tools, or techniques provided here.
 
-# Credits
-Copyright Volkan Sah Kücükbudak
+### Thank you for your support!
+- If you appreciate my work, please consider [becoming a 'Sponsor'](https://github.com/sponsors/volkansah), giving a :star: to my projects, or following me. 
+### Credits
+- [VolkanSah on Github](https://github.com/volkansah)
+- [Developer Site](https://volkansah.github.io)
 
-[If you like my work, than become a sponsor](https://github.com/sponsors/VolkanSah)
+### License
+This project is licensed under the MIT - see the [LICENSE](LICENSE) file for details.
 
 
 
